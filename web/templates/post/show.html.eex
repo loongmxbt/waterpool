@@ -1,0 +1,33 @@
+<h2>Show post</h2>
+
+<ul>
+
+  <li>
+    <strong>Title:</strong>
+    <%= @post.title %>
+  </li>
+
+  <li>
+    <strong>Desc:</strong>
+    <%= @post.desc %>
+  </li>
+
+  <li>
+    <strong>Image:</strong>
+    <%= @post.image %>
+  </li>
+
+  <li>
+    <strong>Video:</strong>
+    <%= @post.video %>
+  </li>
+
+  <li>
+    <strong>Body:</strong>
+    <%= @post.body %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: post_path(@conn, :edit, @post) %>
+<%= link "Back", to: post_path(@conn, :index) %>

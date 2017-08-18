@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Waterpool">
+
+    <title>水库投资 - 成为高净值人群！</title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <%= render Waterpool.LayoutView, "header.html" %>
+    <%= render @view_module, @view_template, assigns %>
+    <%= render Waterpool.LayoutView, "footer.html" %>
+  
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+
+  </body>
+</html>

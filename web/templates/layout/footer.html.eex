@@ -1,0 +1,108 @@
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="block">
+					<h1 class="block-title">Company Info</h1>
+					<div class="block-body">
+						<figure class="foot-logo">
+							<img src="images/logo.png" class="img-responsive">
+						</figure>
+						<p class="brand-description">
+							Magz is a free HTML5 &amp; CSS3 magazine template is based on Bootstrap 3. This template is free for personal or commercial use.
+						</p>
+						<a href="page.html" class="btn btn-primary btn-magz white">About Us <i class="ion-ios-arrow-thin-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="block">
+					<h1 class="block-title">Popular Tags <div class="right"><a href="#">See All <i class="ion-ios-arrow-thin-right"></i></a></div></h1>
+					<div class="block-body">
+						<ul class="tags">
+							<li><a href="#">HTML5</a></li>
+							<li><a href="#">CSS3</a></li>
+							<li><a href="#">Bootstrap 3</a></li>
+							<li><a href="#">Web Design</a></li>
+							<li><a href="#">Creative Mind</a></li>
+							<li><a href="#">Standing On The Train</a></li>
+							<li><a href="#">at 6.00PM</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="line"></div>
+				
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="block">
+					<h1 class="block-title">Latest News <div class="right"><a href="#">See All <i class="ion-ios-arrow-thin-right"></i></a></div></h1>
+					<div class="block-body">
+						<article class="article-mini">
+							<div class="inner">
+								<figure>
+									<a href="single.html">
+										<img src="images/news/img12.jpg">
+									</a>
+								</figure>
+								<div class="padding">
+									<h1><a href="single.html">Donec consequat lorem quis augue pharetra</a></h1>
+								</div>
+							</div>
+						</article>
+						<article class="article-mini">
+							<div class="inner">
+								<figure>
+									<a href="single.html">
+										<img src="images/news/img14.jpg">
+									</a>
+								</figure>
+								<div class="padding">
+									<h1><a href="single.html">eu dapibus risus aliquam etiam ut venenatis</a></h1>
+								</div>
+							</div>
+						</article>
+						<article class="article-mini">
+							<div class="inner">
+								<figure>
+									<a href="single.html">
+										<img src="images/news/img15.jpg">
+									</a>
+								</figure>
+								<div class="padding">
+									<h1><a href="single.html">Nulla facilisis odio quis gravida vestibulum </a></h1>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-12 col-sm-6">
+				<div class="block">
+					<h1 class="block-title">Newsletter</h1>
+					<div class="block-body">
+						<p>By subscribing you will receive new articles in your email.</p>
+						<form class="newsletter">
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="ion-ios-email-outline"></i>
+								</div>
+								<input type="email" class="form-control email" placeholder="Your mail">
+							</div>
+							<button class="btn btn-primary btn-block white">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="copyright">
+					Copyright &copy; Magz 2016. All Right Reserved.
+					<div>
+						Made with <i class="ion-heart"></i> by Billions
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,115 @@
+<div class="topbar">
+	<div class="container">
+		<div class="inner">
+			<div class="left">
+				<ul class="info">
+					<li><a href="mailto:hi@kodinger.com"><i class="ion-ios-email-outline"></i> hi@waterpool.com</a></li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul class="topbar-nav">
+					<li class="active"><a href="index.html"><i class="ion-ios-home-outline"></i> 首页</a></li>
+					<li><a href="#"><i class="ion-ios-people-outline"></i> 论坛</a></li>
+					<li><a href="#"><i class="ion-ios-people-outline"></i> 工具</a></li>
+					<li><a href="#"><i class="ion-ios-people-outline"></i> 伙伴</a></li>
+					<li><a href="contact.html"><i class="ion-ios-email-outline"></i> 联系</a></li>
+					<li><a href="page.html"><i class="ion-ios-help-outline"></i> 关于</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<header class="primary">
+	<div class="container">
+		<div class="brand">
+			<a href="index.html">
+				<div class="text">
+					水库投资
+				</div>
+			</a>
+			<h2>
+				低风险<br>高收益<br>资产配置<br>纯属瞎扯
+			</h2>
+			<h2>
+				Only<br>High Risk<br>Gets<br>High Yield
+			</h2>
+		</div>
+		<div class="right social trp">
+			<li>
+				<div class="search">
+					<form>
+						<input type="text" class="form-control search-input" name="s" placeholder="Search">
+					</form>
+				</div>
+			</li>
+			<li>
+				<a href="#" class="search-toggle">
+					<svg><rect/></svg>
+					<i class="ion-search"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="facebook">
+					<svg><rect/></svg>
+					<i class="ion-social-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="twitter">
+					<svg><rect/></svg>
+					<i class="ion-social-twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="youtube">
+					<svg><rect/></svg>
+					<i class="ion-social-youtube"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="rss">
+					<svg><rect/></svg>
+					<i class="ion-social-rss"></i>
+				</a>
+			</li>
+		</div>
+	</div>
+</header>
+<nav class="menu">
+	<div class="container">
+		<ul>
+			<li><a href="category.html">股票 <div class="badge">New!</div></a></li>
+			<li><a href="category.html">被动基金</a></li>
+			<li><a href="category.html">固收证券</a></li>
+			<li><a href="category.html">房地产</a></li>
+			<li class="magz-dropdown"><a href="category.html">商品 <i class="ion-ios-arrow-right"></i></a>
+				<ul>
+					<li><a href="category.html">Internet</a></li>
+					<li class="magz-dropdown"><a href="category.html">Troubleshoot <i class="ion-ios-arrow-right"></i></a>
+						<ul>
+							<li><a href="category.html">Software</a></li>
+							<li class="magz-dropdown"><a href="category.html">Hardware <i class="ion-ios-arrow-right"></i></a>
+								<ul>
+									<li><a href="category.html">Child Menu 1</a></li>
+									<li><a href="category.html">Child Menu 2</a></li>
+									<li><a href="category.html">Child Menu 3</a></li>
+								</ul>
+							</li>
+							<li><a href="category.html">Menu 3</a>
+						</ul>
+					</li>
+					<li><a href="category.html">Office</a></li>
+				</ul>
+			</li>
+			<li><a href="category.html">私募股权</a></li>
+			<li><a href="category.html">对冲基金</a></li>
+			<li><a href="category.html">外汇</a></li>
+			<li><a href="category.html">基础设施</a></li>
+			<li><a href="category.html">结构化产品</a></li>
+			<li><a href="category.html">杠杆贷款</a></li>
+			<li><a href="category.html">波动率</a></li>
+			<li><a href="category.html">保险</a></li>
+			<li><a href="category.html">艺术品</a></li>
+		</ul>
+	</div>
+</nav>
