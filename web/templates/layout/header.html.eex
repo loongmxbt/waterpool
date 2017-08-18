@@ -78,33 +78,40 @@
 <nav class="menu">
 	<div class="container">
 		<ul>
-			<li><a href="category.html">股票 <div class="badge">New!</div></a></li>
+			<li><a href="category.html">全球股票</a></li>
 			<li><a href="category.html">被动基金</a></li>
 			<li><a href="category.html">固收证券</a></li>
 			<li><a href="category.html">房地产</a></li>
 			<li class="magz-dropdown"><a href="category.html">商品 <i class="ion-ios-arrow-right"></i></a>
 				<ul>
-					<li><a href="category.html">Internet</a></li>
-					<li class="magz-dropdown"><a href="category.html">Troubleshoot <i class="ion-ios-arrow-right"></i></a>
-						<ul>
-							<li><a href="category.html">Software</a></li>
-							<li class="magz-dropdown"><a href="category.html">Hardware <i class="ion-ios-arrow-right"></i></a>
-								<ul>
-									<li><a href="category.html">Child Menu 1</a></li>
-									<li><a href="category.html">Child Menu 2</a></li>
-									<li><a href="category.html">Child Menu 3</a></li>
-								</ul>
-							</li>
-							<li><a href="category.html">Menu 3</a>
-						</ul>
-					</li>
-					<li><a href="category.html">Office</a></li>
+					<li><a href="category.html">能源</a></li>
+					<li><a href="category.html">贵金属</a></li>
+					<li><a href="category.html">工业金属</a></li>
+					<li><a href="category.html">农产品</a></li>
+					<li><a href="category.html">牲畜</a></li>
 				</ul>
 			</li>
-			<li><a href="category.html">私募股权</a></li>
+			<li class="magz-dropdown"><a href="category.html">股权 <i class="ion-ios-arrow-right"></i></a>
+				<ul>
+					<li><a href="category.html">私募股权</a></li>
+					<li><a href="category.html">优先股</a></li>
+				</ul>
+			</li>
 			<li><a href="category.html">对冲基金</a></li>
 			<li><a href="category.html">外汇</a></li>
-			<li><a href="category.html">基础设施</a></li>
+			<li class="magz-dropdown"><a href="category.html">基础设施 <i class="ion-ios-arrow-right"></i></a>
+        <ul>
+					<li><a href="category.html">运输系统</a></li>
+					<li><a href="category.html">发电电网</a></li>
+					<li><a href="category.html">公用事业</a></li>
+					<li><a href="category.html">通信设施</a></li>
+					<li><a href="category.html">医疗机构</a></li>
+					<li><a href="category.html">惩教设施</a></li>
+					<li><a href="category.html">保障住房</a></li>
+					<li><a href="category.html">废物处理</a></li>
+					<li><a href="category.html">体育场馆</a></li>
+				</ul>
+			</li>
 			<li><a href="category.html">结构化产品</a></li>
 			<li><a href="category.html">杠杆贷款</a></li>
 			<li><a href="category.html">波动率</a></li>
