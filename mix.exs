@@ -20,7 +20,7 @@ defmodule Waterpool.Mixfile do
     [mod: {Waterpool, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
                     :phoenix_ecto, :postgrex,
-                    :coherence]]
+                    :coherence, :httpoison]]
   end
 
   # Specifies which paths to compile per environment.
@@ -40,7 +40,8 @@ defmodule Waterpool.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:coherence, "~> 0.4"},
-     {:ex_admin, github: "smpallen99/ex_admin"}]
+     {:ex_admin, github: "smpallen99/ex_admin"},
+     {:httpoison, "~> 0.13"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

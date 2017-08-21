@@ -41,7 +41,8 @@ defmodule Waterpool.Router do
     pipe_through :browser 
 
     get "/", PageController, :index
-    resources "/posts", PostController
+    resources "/posts", PostController, except: [:delete]
+    get "/category/:slug", CategoryController, :show
   end
 
   # Protected

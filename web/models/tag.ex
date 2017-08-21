@@ -1,12 +1,12 @@
-defmodule Waterpool.Category do
+defmodule Waterpool.Tag do
   use Waterpool.Web, :model
 
-  schema "categories" do
+  schema "tags" do
     field :name, :string
     field :slug, :string
-    field :desc, :string
     field :image, :string
-    has_many :posts, Waterpool.Post
+    field :desc, :string
+    many_to_many :posts, Waterpool.Post, join_through: Waterpool.PostTag
 
     timestamps()
   end
@@ -16,7 +16,7 @@ defmodule Waterpool.Category do
   """
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:name, :slug, :desc, :image])
-    |> validate_required([:name, :slug])
+    |> cast(params, [:name, :slug, :image, :desc])
+    |> validate_required([:name, :slug, :image, :desc])
   end
 end

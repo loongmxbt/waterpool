@@ -1,4 +1,6 @@
-<br \>
+<h1 class="page-title">登录亿万俱乐部</h1>
+<p class="page-subtitle">Land the Billions</p>
+<div class="line thin"></div>
 
 <%= form_for @conn, session_path(@conn, :create), [as: :session], fn f  -> %>
 
@@ -33,3 +35,8 @@
   </div>
 
 <% end %>
+
+<div class="line thin"></div>
+<div class="question">
+  没有隐私，亿万有何用？
+</div>

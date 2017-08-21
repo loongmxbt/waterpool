@@ -28,7 +28,7 @@
               <article class="featured">
                 <div class="overlay"></div>
                 <figure>
-                  <img src="images/news/img04.jpg">
+                  <img src="/images/news/img04.jpg">
                 </figure>
                 <div class="details">
                   <div class="category"><a href="category.html">Computer</a></div>
@@ -41,7 +41,7 @@
               <article class="featured">
                 <div class="overlay"></div>
                 <figure>
-                  <img src="images/news/img14.jpg">
+                  <img src="/images/news/img14.jpg">
                 </figure>
                 <div class="details">
                   <div class="category"><a href="category.html">Travel</a></div>
@@ -54,7 +54,7 @@
               <article class="featured">
                 <div class="overlay"></div>
                 <figure>
-                  <img src="images/news/img13.jpg">
+                  <img src="/images/news/img13.jpg">
                 </figure>
                 <div class="details">
                   <div class="category"><a href="category.html">International</a></div>
@@ -67,7 +67,7 @@
               <article class="featured">
                 <div class="overlay"></div>
                 <figure>
-                  <img src="images/news/img05.jpg">
+                  <img src="/images/news/img05.jpg">
                 </figure>
                 <div class="details">
                   <div class="category"><a href="category.html">Lifestyle</a></div>
@@ -87,7 +87,7 @@
           </a>
         </div>
         <div class="line">
-          <div>Latest News</div>
+          <div>最新文章</div>
         </div>
         <div class="row">
           <div class="col-md-6 col-sm-6">
@@ -96,7 +96,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img10.jpg">
+                      <img src="/images/news/img10.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -120,7 +120,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img06.jpg">
+                      <img src="/images/news/img06.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -148,7 +148,7 @@
                 <div class="inner">
                   <figure>                                
                     <a href="single.html">
-                      <img src="images/news/img05.jpg">
+                      <img src="/images/news/img05.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -172,7 +172,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img07.jpg">
+                      <img src="/images/news/img07.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -198,9 +198,9 @@
         <div class="line"></div>
         <div class="row">
           <div class="col-md-6 col-sm-6 trending-tags">
-            <h1 class="title-col">Trending Tags</h1>
+            <h1 class="title-col">流行标签 Top 10</h1>
             <div class="body-col">
-              <ol class="tags-list">
+              <ul class="tags-cloud tags-red">
                 <li><a href="#">HTML5</a></li>
                 <li><a href="#">CSS3</a></li>
                 <li><a href="#">JavaScript</a></li>
@@ -211,17 +211,28 @@
                 <li><a href="#">Voluptate</a></li>
                 <li><a href="#">Veit</a></li>
                 <li><a href="#">Reprehenderit</a></li>
+              </ul>
+            </div>
+            <br>
+            <h1 class="title-col">作者人气榜 Top 5</h1>
+            <div class="body-col">
+              <ol class="tags-list">
+                <li><a href="#">欧神 「关注1130 赞赏11299」</a></li>
+                <li><a href="#">二环十三套 关注430 赞赏123</a></li>
+                <li><a href="#">特姐买房 关注410 赞赏</a></li>
+                <li><a href="#">油气君 300</a></li>
+                <li><a href="#">任志强</a></li>
               </ol>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
-            <h1 class="title-col">Hot News</h1>
+            <h1 class="title-col">专栏文章</h1>
             <div class="body-col">
               <article class="article-mini">
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img05.jpg">
+                      <img src="/images/news/img05.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -237,7 +248,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img02.jpg">
+                      <img src="/images/news/img02.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -253,7 +264,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img13.jpg">
+                      <img src="/images/news/img13.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -269,7 +280,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img08.jpg">
+                      <img src="/images/news/img08.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -285,14 +296,14 @@
           </div>
         </div>
         <div class="line">
-          <div>Just Another News</div>
+          <div>视频教学</div>
         </div>
         <div class="row">
           <article class="col-md-12 article-list">
             <div class="inner">
               <figure>
                 <a href="single.html">
-                  <img src="images/news/img11.jpg">
+                  <img src="/images/news/img11.jpg">
                 </a>
               </figure>
               <div class="details">
@@ -323,7 +334,7 @@
               </div>
               <figure>
                 <a href="single.html">
-                  <img src="images/news/img02.jpg">
+                  <img src="/images/news/img02.jpg">
                 </a>
               </figure>
               <div class="details">
@@ -351,7 +362,7 @@
             <div class="inner">
               <figure>
                 <a href="single.html">
-                  <img src="images/news/img03.jpg">
+                  <img src="/images/news/img03.jpg">
                 </a>
               </figure>
               <div class="details">
@@ -379,7 +390,7 @@
             <div class="inner">
               <figure>
                 <a href="single.html">
-                  <img src="images/news/img09.jpg">
+                  <img src="/images/news/img09.jpg">
                 </a>
               </figure>
               <div class="details">
@@ -407,13 +418,13 @@
       </div>
       <div class="col-sm-6 col-md-4 sidebar">
         <aside>
-          <h1 class="aside-title">Popular <a href="#" class="all">See All <i class="ion-ios-arrow-right"></i></a></h1>
+          <h1 class="aside-title">热门文章 <a href="#" class="all">查看全部 <i class="ion-ios-arrow-right"></i></a></h1>
           <div class="aside-body">
             <article class="article-mini">
               <div class="inner">
                 <figure>
                   <a href="single.html">
-                    <img src="images/news/img08.jpg">
+                    <img src="/images/news/img08.jpg">
                   </a>
                 </figure>
                 <div class="padding">
@@ -425,7 +436,7 @@
               <div class="inner">
                 <figure>
                   <a href="single.html">
-                    <img src="images/news/img07.jpg">
+                    <img src="/images/news/img07.jpg">
                   </a>
                 </figure>
                 <div class="padding">
@@ -437,7 +448,7 @@
               <div class="inner">
                 <figure>
                   <a href="single.html">
-                    <img src="images/news/img14.jpg">
+                    <img src="/images/news/img14.jpg">
                   </a>
                 </figure>
                 <div class="padding">
@@ -449,7 +460,7 @@
               <div class="inner">
                 <figure>
                   <a href="single.html">
-                    <img src="images/news/img09.jpg">
+                    <img src="/images/news/img09.jpg">
                   </a>
                 </figure>
                 <div class="padding">
@@ -461,7 +472,7 @@
               <div class="inner">
                 <figure>
                   <a href="single.html">
-                    <img src="images/news/img11.jpg">
+                    <img src="/images/news/img11.jpg">
                   </a>
                 </figure>
                 <div class="padding">
@@ -473,7 +484,7 @@
               <div class="inner">
                 <figure>
                   <a href="single.html">
-                    <img src="images/news/img06.jpg">
+                    <img src="/images/news/img06.jpg">
                   </a>
                 </figure>
                 <div class="padding">
@@ -485,7 +496,7 @@
               <div class="inner">
                 <figure>
                   <a href="single.html">
-                    <img src="images/news/img03.jpg">
+                    <img src="/images/news/img03.jpg">
                   </a>
                 </figure>
                 <div class="padding">
@@ -516,12 +527,12 @@
           <ul class="nav nav-tabs nav-justified" role="tablist">
             <li class="active">
               <a href="#recomended" aria-controls="recomended" role="tab" data-toggle="tab">
-                <i class="ion-android-star-outline"></i> Recomended
+                <i class="ion-android-star-outline"></i> 推荐
               </a>
             </li>
             <li>
               <a href="#comments" aria-controls="comments" role="tab" data-toggle="tab">
-                <i class="ion-ios-chatboxes-outline"></i> Comments
+                <i class="ion-ios-chatboxes-outline"></i> 评论
               </a>
             </li>
           </ul>
@@ -531,7 +542,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img16.jpg">
+                      <img src="/images/news/img16.jpg">
                     </a>
                   </figure>
                   <div class="details">
@@ -551,7 +562,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img05.jpg">
+                      <img src="/images/news/img05.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -567,7 +578,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img02.jpg">
+                      <img src="/images/news/img02.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -583,7 +594,7 @@
                 <div class="inner">
                   <figure>
                     <a href="single.html">
-                      <img src="images/news/img10.jpg">
+                      <img src="/images/news/img10.jpg">
                     </a>
                   </figure>
                   <div class="padding">
@@ -645,27 +656,54 @@
           </div>
         </aside>
         <aside id="sponsored">
-          <h1 class="aside-title">Sponsored</h1>
+          <h1 class="aside-title">赞助商</h1>
           <div class="aside-body">
             <ul class="sponsored">
               <li>
                 <a href="#">
-                  <img src="images/sponsored.png">
+                  <img src="/images/sponsored.png">
                 </a>
               </li> 
               <li>
                 <a href="#">
-                  <img src="images/sponsored.png">
+                  <img src="/images/sponsored.png">
                 </a>
               </li> 
               <li>
                 <a href="#">
-                  <img src="images/sponsored.png">
+                  <img src="/images/sponsored.png">
                 </a>
               </li> 
               <li>
                 <a href="#">
-                  <img src="images/sponsored.png">
+                  <img src="/images/sponsored.png">
+                </a>
+              </li> 
+            </ul>
+          </div>
+        </aside>
+        <aside id="social">
+          <h1 class="aside-title">公众号</h1>
+          <div class="aside-body">
+            <ul class="sponsored">
+              <li>
+                <a href="#">
+                  <img src="/images/sponsored.png">
+                </a>
+              </li> 
+              <li>
+                <a href="#">
+                  <img src="/images/sponsored.png">
+                </a>
+              </li> 
+              <li>
+                <a href="#">
+                  <img src="/images/sponsored.png">
+                </a>
+              </li> 
+              <li>
+                <a href="#">
+                  <img src="/images/sponsored.png">
                 </a>
               </li> 
             </ul>
@@ -678,13 +716,13 @@
 
 <section class="best-of-the-week">
   <div class="container">
-    <h1><div>Best Of The Week</div></h1>
+    <h1><div>每周最佳</div></h1>
     <div class="row">
       <article class="col-sm-6 col-xs-12 article col-md-3">
         <div class="inner">
           <figure>
             <a href="single.html">
-              <img src="images/news/img03.jpg">
+              <img src="/images/news/img03.jpg">
             </a>
           </figure>
           <div class="padding">
@@ -701,7 +739,7 @@
         <div class="inner">
           <figure>
             <a href="single.html">
-              <img src="images/news/img16.jpg">
+              <img src="/images/news/img16.jpg">
             </a>
           </figure>
           <div class="padding">
@@ -718,7 +756,7 @@
         <div class="inner">
           <figure>
             <a href="single.html">
-              <img src="images/news/img15.jpg">
+              <img src="/images/news/img15.jpg">
             </a>
           </figure>
           <div class="padding">
@@ -735,7 +773,7 @@
         <div class="inner">
           <figure>
             <a href="single.html">
-              <img src="images/news/img14.jpg">
+              <img src="/images/news/img14.jpg">
             </a>
           </figure>
           <div class="padding">

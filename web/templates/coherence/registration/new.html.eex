@@ -1,5 +1,12 @@
-<h3><%= dgettext "coherence", "Register Account" %></h3>
+<h1 class="page-title">加入亿万俱乐部</h1>
+<p class="page-subtitle">Join the Billions Club</p>
+<div class="line thin"></div>
 
 <%= render "form.html", changeset: @changeset,
                         label: dgettext("coherence", "Register"), required: [required: ""],
                         action: registration_path(@conn, :create) %>
+
+<div class="line thin"></div>
+<div class="question">
+  我们非常注重隐私，您可以不填写真实的邮箱。<br>当然这也会对你接收信息、找回帐号造成困扰。
+</div>

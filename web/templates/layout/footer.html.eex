@@ -3,10 +3,10 @@
 		<div class="row">
 			<div class="col-md-3 col-sm-6 col-xs-12">
 				<div class="block">
-					<h1 class="block-title">Company Info</h1>
+					<h1 class="block-title">水库投资</h1>
 					<div class="block-body">
 						<figure class="foot-logo">
-							<img src="images/logo.png" class="img-responsive">
+							<img src="/images/logo.png" class="img-responsive">
 						</figure>
 						<p class="brand-description">
 							Magz is a free HTML5 &amp; CSS3 magazine template is based on Bootstrap 3. This template is free for personal or commercial use.
@@ -17,7 +17,7 @@
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12">
 				<div class="block">
-					<h1 class="block-title">Popular Tags <div class="right"><a href="#">See All <i class="ion-ios-arrow-thin-right"></i></a></div></h1>
+					<h1 class="block-title">流行标签 <div class="right"><a href="#">See All <i class="ion-ios-arrow-thin-right"></i></a></div></h1>
 					<div class="block-body">
 						<ul class="tags">
 							<li><a href="#">HTML5</a></li>
@@ -35,13 +35,13 @@
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12">
 				<div class="block">
-					<h1 class="block-title">Latest News <div class="right"><a href="#">See All <i class="ion-ios-arrow-thin-right"></i></a></div></h1>
+					<h1 class="block-title">最新文章 <div class="right"><a href="#">See All <i class="ion-ios-arrow-thin-right"></i></a></div></h1>
 					<div class="block-body">
 						<article class="article-mini">
 							<div class="inner">
 								<figure>
 									<a href="single.html">
-										<img src="images/news/img12.jpg">
+										<img src="/images/news/img12.jpg">
 									</a>
 								</figure>
 								<div class="padding">
@@ -53,7 +53,7 @@
 							<div class="inner">
 								<figure>
 									<a href="single.html">
-										<img src="images/news/img14.jpg">
+										<img src="/images/news/img14.jpg">
 									</a>
 								</figure>
 								<div class="padding">
@@ -65,7 +65,7 @@
 							<div class="inner">
 								<figure>
 									<a href="single.html">
-										<img src="images/news/img15.jpg">
+										<img src="/images/news/img15.jpg">
 									</a>
 								</figure>
 								<div class="padding">
@@ -78,7 +78,7 @@
 			</div>
 			<div class="col-md-3 col-xs-12 col-sm-6">
 				<div class="block">
-					<h1 class="block-title">Newsletter</h1>
+					<h1 class="block-title">邮件订阅</h1>
 					<div class="block-body">
 						<p>By subscribing you will receive new articles in your email.</p>
 						<form class="newsletter">
@@ -97,7 +97,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="copyright">
-					Copyright &copy; Magz 2016. All Right Reserved.
+					Copyright &copy; StarSoul 2017. All Right Reserved.
 					<div>
 						Made with <i class="ion-heart"></i> by Billions
 					</div>

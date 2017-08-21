@@ -1,12 +1,12 @@
-defmodule Waterpool.Repo.Migrations.CreateCategory do
+defmodule Waterpool.Repo.Migrations.CreateTag do
   use Ecto.Migration
 
   def change do
-    create table(:categories) do
+    create table(:tags) do
       add :name, :string
       add :slug, :string
-      add :desc, :string
       add :image, :string
+      add :desc, :string
 
       timestamps()
     end

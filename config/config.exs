@@ -54,5 +54,8 @@ config :ex_admin,
     Waterpool.ExAdmin.User,
     Waterpool.ExAdmin.Post,
     Waterpool.ExAdmin.Type,
-    Waterpool.ExAdmin.Category
+    Waterpool.ExAdmin.Category,
+    Waterpool.ExAdmin.Tag,
+    Waterpool.ExAdmin.PostTag,
+    Waterpool.ExAdmin.Slogan
   ]
