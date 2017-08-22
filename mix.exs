@@ -41,7 +41,8 @@ defmodule Waterpool.Mixfile do
      {:cowboy, "~> 1.0"},
      {:coherence, "~> 0.4"},
      {:ex_admin, github: "smpallen99/ex_admin"},
-     {:httpoison, "~> 0.13"}]
+     {:httpoison, "~> 0.13"},
+     {:distillery, "~> 1.0"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

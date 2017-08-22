@@ -23,3 +23,10 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
 
+## TODO
+1. Froala Editor https://github.com/froala/wysiwyg-editor
+2. HTTPoison Crawler
+3. Qiniu Static Asset
+4. Cache
+5. Meta
+

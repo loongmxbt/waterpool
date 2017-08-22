@@ -1,6 +1,36 @@
-<h2>New post</h2>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-12 col-xs-12">
+				<h2>New post</h2>
 
-<%= render "form.html", changeset: @changeset,
-                        action: post_path(@conn, :create) %>
+				<%= render "form.html", changeset: @changeset,
+				                        action: post_path(@conn, :create) %>
 
-<%= link "Back", to: post_path(@conn, :index) %>
+				<%= link "Back", to: post_path(@conn, :index) %>
+			</div>
+			<div class="col-sm-6 col-md-4 sidebar">
+				<aside>
+				  <h1 class="aside-title">原文</h1>
+          <div class="aside-body">
+            url
+            抓取
+          </div>
+        </aside>
+				<aside>
+				  <h1 class="aside-title">分类</h1>
+          <div class="aside-body">
+            
+          </div>
+        </aside>
+        <aside>
+				  <h1 class="aside-title">标签</h1>
+          <div class="aside-body">
+            
+          </div>
+        </aside>
+			</div>
+		</div>
+	</div>
+</section>
+
