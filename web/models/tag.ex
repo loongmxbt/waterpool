@@ -17,6 +17,6 @@ defmodule Waterpool.Tag do
   def changeset(struct, params \\ %{}) do
     struct
     |> cast(params, [:name, :slug, :image, :desc])
-    |> validate_required([:name, :slug, :image, :desc])
+    |> validate_required([:name, :slug])
   end
 end

@@ -20,6 +20,14 @@ Repo.insert(%Category{name: "商品", slug: "commodity"})
 Repo.insert(%Category{name: "艺术品", slug: "artwork"})
 
 
+Repo.insert(%Tag{name: "石油", slug: "oil"})
+Repo.insert(%Tag{name: "天然气", slug: "gas"})
+Repo.insert(%Tag{name: "黄金", slug: "gold"})
+Repo.insert(%Tag{name: "白银", slug: "silver"})
+
+
+
+
 Repo.insert(%Post{title: "房地产投资指南", desc: "描述", body: "主体内容"})
 
 

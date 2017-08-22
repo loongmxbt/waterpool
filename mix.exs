@@ -3,7 +3,7 @@ defmodule Waterpool.Mixfile do
 
   def project do
     [app: :waterpool,
-     version: "0.0.1",
+     version: "0.0.2",
      elixir: "~> 1.2",
      elixirc_paths: elixirc_paths(Mix.env),
      compilers: [:phoenix, :gettext] ++ Mix.compilers,
@@ -20,7 +20,8 @@ defmodule Waterpool.Mixfile do
     [mod: {Waterpool, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
                     :phoenix_ecto, :postgrex,
-                    :coherence, :httpoison]]
+                    :coherence, :httpoison],
+     included_applications: [:elixir_make, :ex_admin]]
   end
 
   # Specifies which paths to compile per environment.
