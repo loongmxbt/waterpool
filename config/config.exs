@@ -55,7 +55,6 @@ config :ex_admin,
     Waterpool.ExAdmin.Post,
     Waterpool.ExAdmin.Type,
     Waterpool.ExAdmin.Category,
-    Waterpool.ExAdmin.Tag,
-    Waterpool.ExAdmin.PostTag,
     Waterpool.ExAdmin.Slogan
-  ]
+  ],
+  head_template: {Waterpool.AdminView, "admin_head.html"}

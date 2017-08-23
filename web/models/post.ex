@@ -9,7 +9,6 @@ defmodule Waterpool.Post do
     field :body, :string
     belongs_to :type, Waterpool.Type
     belongs_to :category, Waterpool.Category
-    many_to_many :tags, Waterpool.Tag, join_through: Waterpool.PostTag, on_replace: :delete
 
     timestamps()
   end

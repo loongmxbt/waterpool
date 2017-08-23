@@ -1,4 +1,4 @@
-alias Waterpool.{Repo, User, Type, Post, Category, Tag, Slogan}
+alias Waterpool.{Repo, User, Type, Post, Category, Slogan}
 
 Repo.delete_all User
 
@@ -18,13 +18,6 @@ Repo.insert(%Category{name: "固定收益", slug: "fixed-income"})
 Repo.insert(%Category{name: "房地产", slug: "real-estate"})
 Repo.insert(%Category{name: "商品", slug: "commodity"})
 Repo.insert(%Category{name: "艺术品", slug: "artwork"})
-
-
-Repo.insert(%Tag{name: "石油", slug: "oil"})
-Repo.insert(%Tag{name: "天然气", slug: "gas"})
-Repo.insert(%Tag{name: "黄金", slug: "gold"})
-Repo.insert(%Tag{name: "白银", slug: "silver"})
-
 
 
 

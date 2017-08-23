@@ -12,14 +12,8 @@ defmodule Waterpool.ExAdmin.Post do
         input post, :body, type: :text
       end
 
-  		inputs "Post meta" do
-  			inputs :tags, as: :check_boxes, collection: Repo.all(Tag)
-  		end
   	end
 
-  	query do
-      %{all: [preload: [:tags]]}
-    end
 
   end
 end
